@@ -1,4 +1,4 @@
-package Fundamentos;
+package fundamentos;
 
 import java.util.Locale;
 import java.util.Scanner;
