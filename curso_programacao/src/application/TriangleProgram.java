@@ -12,7 +12,7 @@ public class TriangleProgram {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		/**********FORMA SEM ORIENTAÇÃO A OBJETO***********/
+		/***********FORMA SEM ORIENTAÇÃO A OBJETO***********/
 		/*double xA, xB, xC, yA, yB, yC;
 		
 		System.out.println("Enter the measures of triangle X: ");
