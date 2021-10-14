@@ -2,9 +2,9 @@ package entities;
 
 public class ProductConstructor {
 
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 	
 	//Constructor, executa na instanciação
 	public ProductConstructor(String name, double price, int quantity) {
@@ -22,6 +22,26 @@ public class ProductConstructor {
 	
 	//Construtor padrão
 	public ProductConstructor() {
+	}
+	
+	public void setName (String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setPrice (double price) {
+		this.price = price;
+	}
+	
+	public double getPrice() {
+		return price;
+	}
+	
+	public int getQuantity() {
+		return quantity;
 	}
 	
 	public double totalValueInStock() {
