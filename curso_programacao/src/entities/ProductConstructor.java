@@ -14,6 +14,16 @@ public class ProductConstructor {
 		this.quantity = quantity;
 	}
 	
+	//Sobrecarga
+	public ProductConstructor(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	//Construtor padrão
+	public ProductConstructor() {
+	}
+	
 	public double totalValueInStock() {
 		return price * quantity;
 	}

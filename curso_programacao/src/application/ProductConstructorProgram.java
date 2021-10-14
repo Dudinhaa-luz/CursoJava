@@ -17,17 +17,17 @@ public class ProductConstructorProgram {
 		String name = sc.nextLine();
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
-		System.out.println("Quantity in stock: ");
-		int quantity = sc.nextInt();
+		/*System.out.println("Quantity in stock: ");
+		int quantity = sc.nextInt();*/
 		
-		ProductConstructor product = new ProductConstructor(name, price, quantity);
+		ProductConstructor product = new ProductConstructor(name, price/*, quantity*/);
 		
 		System.out.println();
 		System.out.println("Product data: " + product);
 		
 		System.out.println();
 		System.out.println("Enter the number of products to be added in stock: ");
-		quantity = sc.nextInt();
+		int quantity = sc.nextInt();
 		product.addProducts(quantity);
 		
 		System.out.println();
